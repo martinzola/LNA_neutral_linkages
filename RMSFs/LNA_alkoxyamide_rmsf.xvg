@@ -1,0 +1,37 @@
+# This file was created Thu Jan 16 13:57:08 2025
+# Created by:
+#                  :-) GROMACS - gmx rmsf, 2021.3-MODIFIED (-:
+# 
+# Executable:   /usr/local/gromacs-2021.3-GPU-plumed/bin//gmx
+# Data prefix:  /usr/local/gromacs-2021.3-GPU-plumed
+# Working dir:  /home/aleph2/fd/wadh6506/dphil/MD/lilbean/clustering/alkoxyamide
+# Command line:
+#   gmx rmsf -f combined_duplex_only.xtc -s alkoxyamide_heavy_only.gro -res
+# gmx rmsf is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.3559
+    2   0.1980
+    3   0.1472
+    4   0.1218
+    5   0.1148
+    6   0.1178
+    7   0.1251
+    8   0.1325
+    9   0.2253
+   10   0.4074
+   11   0.5875
+   12   0.3617
+   13   0.1914
+   14   0.1473
+   15   0.1473
+   16   0.1187
+   17   0.1082
+   18   0.0940
+   19   0.1128
+   20   0.1805

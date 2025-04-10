@@ -1,0 +1,37 @@
+# This file was created Thu Jan 16 15:23:29 2025
+# Created by:
+#                  :-) GROMACS - gmx rmsf, 2021.3-MODIFIED (-:
+# 
+# Executable:   /usr/local/gromacs-2021.3-GPU-plumed/bin//gmx
+# Data prefix:  /usr/local/gromacs-2021.3-GPU-plumed
+# Working dir:  /home/aleph2/fd/wadh6506/dphil/MD/lilbean/clustering/sulfamate
+# Command line:
+#   gmx rmsf -f combined_centered_duplex_only.xtc -s sulfamate_heavy.gro -res
+# gmx rmsf is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.4495
+    2   0.2944
+    3   0.2234
+    4   0.1903
+    5   0.1556
+    6   0.1406
+    7   0.1463
+    8   0.1754
+    9   0.2109
+   10   0.3813
+   11   0.5188
+   12   0.4094
+   13   0.2627
+   14   0.1813
+   15   0.1813
+   16   0.1471
+   17   0.1493
+   18  0.1636
+   19   0.2008
+   20  0.4242

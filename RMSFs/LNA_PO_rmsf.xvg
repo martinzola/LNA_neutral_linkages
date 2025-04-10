@@ -1,0 +1,37 @@
+# This file was created Thu Jan 16 15:09:06 2025
+# Created by:
+#                  :-) GROMACS - gmx rmsf, 2021.3-MODIFIED (-:
+# 
+# Executable:   /usr/local/gromacs-2021.3-GPU-plumed/bin//gmx
+# Data prefix:  /usr/local/gromacs-2021.3-GPU-plumed
+# Working dir:  /home/aleph2/fd/wadh6506/dphil/MD/lilbean/clustering/LNA_PO_actually
+# Command line:
+#   gmx rmsf -f combined_centered_duplex_only.xtc -s LNA_PO_heavy.gro -res
+# gmx rmsf is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.3936
+    2   0.2378
+    3   0.1694
+    4   0.1288
+    5   0.1130
+    6   0.1133
+    7   0.1188
+    8   0.1298
+    9   0.2329
+   10   0.4025
+   11   0.4581
+   12   0.3792
+   13   0.1784
+   14   0.1463
+   15   0.1202
+   16   0.1135
+   17   0.1073
+   18   0.1014
+   19   0.1305
+   20   0.2246

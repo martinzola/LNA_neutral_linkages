@@ -1,0 +1,4 @@
+[ atomtypes ]
+; name      at.num  mass     charge ptype  sigma      epsilon
+SO            16  32.060000  0.00000000  A     0.35635949          1.046
+NT             7  14.010000  0.00000000  A     0.32499985        0.71128

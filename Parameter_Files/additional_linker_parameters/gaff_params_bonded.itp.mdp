@@ -1,0 +1,46 @@
+[ bondtypes ]
+; i    j  func       b0          kb
+  OS N          1    0.14090   332042.240000 ; GAFF for AOAmide
+  CT O          1    0.13170   376476.320000 ; GAFF for AOAmide, Amide, Carbamate
+  OS SO         1    0.16230   261416.3200   ; GAFF for SUlfonamide
+  O  SO         1    0.14530   429027.3600   ; GAFF for SUlfonamide
+  NT SO         1    0.16720   265349.2800   ; GAFF for SUlfonamide
+  CT NT         1    0.14650   272713.120    ; GAFF for SUlfonamide
+  H  NT         1    0.10190   328360.320000 ; GAFF for SUlfonamide
+
+[ angletypes ]
+;  i    j    k  func       th0       cth
+CT   OS   N     1   109.6800468 548.940800 ; GAFF for AOAmide
+CT   CT   O     1   109.5000469 334.720000 ; GAFF for AOAmide
+H1   CT   O     1   116.4500502 440.156800 ; GAFF for AOAmide
+OS   N   C     1   113.1400484 575.718400 ; GAFF for AOAmide
+OS   N   H     1   110.0100470 422.584000 ; GAFF for AOAmide
+CT   OS  C     1   115.9800495 529.694400 ; GAFF for LCArbamate
+N    C   OS    1   109.2200470 630.110400 ;
+CT   OS   SO   1   115.8700496 520.489600 ; GAFF for SUlfonamide
+CT   NT   SO   1   116.5500502 525.510400 ; GAFF for SUlfonamide
+O    SO   OS   1   108.5600466 608.353600 ; GAFF for SUlfonamide
+NT   SO   OS   1   99.6600428 592.454400  ; GAFF for SUlfonamide
+H    NT   SO   1   109.6000470 374.88640  ; GAFF for SUlfonamide
+NT   SO   O    1   107.4300461 595.801600 ; GAFF for SUlfonamide
+O    SO   O    1   120.0500517 615.884800 ; GAFF for SUlfonamide
+CT   NT   H    1   109.2900470 396.643200 ; GAFF for SUlfonamide
+H1   CT   NT   1   109.8800469 414.216000 ; GAFF for SUlfonamide
+CT   CT   NT   1   111.0400475 552.288000 ; GAFF for SUlfonamide
+
+[ dihedraltypes ]
+;i  j   k  l	 func      phase      kd      pn
+CT   OS   N   C      1  0.0000000  4.6024000  2  ; GAFF for AOAmide
+CT   OS   N   H      1  0.0000000  4.6024000  2  ; GAFF for AOAmide
+H1  CT  OS  SO       1  0.0000000  1.6038667  3  ; GAFF for AOAmide    
+CT  NT  SO  O       1  0.0000000  13.1098667 2   ; GAFF for AOAmide 
+CT  NT  SO  OS      1  0.0000000  13.1098667  2  ; GAFF for AOAmide   
+H1  CT  NT  SO      1  0.0000000  1.2552000  3 ; GAFF for AOAmide
+CT  CT  NT  SO      1  0.0000000  1.2552000  3 ; GAFF for AOAmide
+H1   CT   NT  H      1  0.0000000  1.2552000  3  ; GAFF for AOAmide
+CT   CT   NT  H      1  0.0000000  1.2552000  3  ; GAFF for AOAmide
+CT   CT   CT  NT     1  0.0000000  0.6508444  3  ; GAFF for AOAmide
+H    NT  SO  OS        1  0.0000000  13.1098667  2  ; GAFF for AOAmide
+H    NT  SO  O         1  0.0000000  13.1098667  2  ; GAFF for AOAmide
+CT   OS  SO  O         1  180.0000771  5.0208000  2; GAFF for AOAmide
+CT   OS  SO  NT         1  180.0000771  5.0208000  2; GAFF for AOAmide
